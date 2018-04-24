@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1495" height="805" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" alpha="1" fillColor="0xffffff"/>
+	<e:Group id="groupPath" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Group id="groupTower" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Group id="groupBuild" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Group id="groupEnemy" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Group id="groupBullet" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Group id="groupEffect" width="100%" height="100%" x="0" y="0" locked="true"/>
+	<e:Rect id="rectTouchArea" width="100%" height="100%" x="0" y="0" alpha="0.01" touchEnabled="true" locked="true"/>
+	<e:Group id="groupAddTower" width="100%" height="100%" x="0" y="0" touchThrough="true" locked="true">
+		<e:Rect id="rectAddTower" width="1920" height="1080" verticalCenter="0" horizontalCenter="0" alpha="0.5" touchEnabled="true"/>
+		<e:Button id="btnAddTower0" label="一次性伤害" x="75" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60"/>
+		<e:Button label="持续性伤害" x="301" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnAddTower1"/>
+		<e:Button label="一次性范围伤害" x="523" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnAddTower2"/>
+		<e:Button label="一次性伤害加减速" x="748" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnAddTower3"/>
+		<e:Button label="一次性伤害加跟踪" x="969" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnAddTower4"/>
+		<e:Button label="溅射伤害" x="1191" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnAddTower5"/>
+	</e:Group>
+	<e:Group id="groupEditTower" width="100%" height="100%" x="0" y="0" touchThrough="true" locked="true">
+		<e:Rect id="rectEditTower" width="1920" height="1080" verticalCenter="0" horizontalCenter="0" alpha="0.5" touchEnabled="true"/>
+		<e:Button label="升级" x="523" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnUpgradeTower"/>
+		<e:Button label="删除" x="748" y="-100" anchorOffsetX="0" width="200" anchorOffsetY="0" height="60" id="btnDeleteTower"/>
+	</e:Group>
+</e:Skin>
